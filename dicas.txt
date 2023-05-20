@@ -1,0 +1,62 @@
+html5
+
+head <!--Tag de informação/ não visíveis na página-->
+
+<!-- usa-se form para receber dados, fazer operações com esses dados e devolver resultados, não vai ser necessário mandar nada ao back-end pq o próprio javascript irá recolher os dados fazer os cálculos e entregar a resposta-->
+
+<!--Qual o valor da conta?-->
+        
+<!-- usando o type number, não é possivel colocar -->
+
+<!-- usando o type number, não é possivel colocar palavras, apenas números, o placeholder permite voce manter algo escrito dentro da caixa  -->
+
+<!-- a tag select é usada para selecionar valores pré definidos
+
+<!-- disabled selected é uma opção que mesmo se quando selecionada não é considerada
+
+
+css
+
+
+
+java script
+
+operadores de atribuições = let x = 5;
+
+operadores aritmétricos
+let x = 100 + 50; adição
+let x = 100 - 50; subtração
+let x = 100 / 50; divisão
+let x = (100 + 50) *; multiplicação 
+let x =5; let y = 2; let z = x % y; resto
+
+operadores lógicos
+a & b = ambas ou são corretas ou são erradas
+a | b = ou uma ou outra 
+a > b = a maior que b
+b <= a = b menor ou igual a
+
+if, else if, else
+
+let i;
+for (i = 0, i < 10; i++){
+    console.log('hello')
+}
+Neste caso a variavel i ela inicia com o valor 0 e a cada repetição acrescenta +1 no qual significa ++ até chegar ao valor maior que 10 
+
+let i;
+while(i<10){
+    console.log('hello')
+    i++;
+}
+
+neste caso é a mesma coisa, mas usando a tag while
+
+função
+
+function sum(a,b) {
+    return a + b
+}
+
+console.log(sum(10,20);)
+o resultado esperado é 30
